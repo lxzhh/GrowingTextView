@@ -68,8 +68,8 @@
 	}
     
     // Fix "overscrolling" bug
-    if (s.y > self.contentSize.height - self.frame.size.height && !self.decelerating && !self.tracking && !self.dragging)
-        s = CGPointMake(s.x, self.contentSize.height - self.frame.size.height);
+//    if (s.y > self.contentSize.height - self.frame.size.height && !self.decelerating && !self.tracking && !self.dragging)
+//        s = CGPointMake(s.x, self.contentSize.height - self.frame.size.height);
     
 	[super setContentOffset:s];
 }
